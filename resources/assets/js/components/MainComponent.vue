@@ -64,13 +64,8 @@
 
 <script>
 
-
-    import DataLoadedComponent from './DataLoadedComponent.vue'
-
-
     export default {
-
-            components: {DataLoadedComponent},
+        
 
             mounted () {
 

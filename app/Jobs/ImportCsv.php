@@ -10,7 +10,9 @@ use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Support\Facades\Storage;
+use Csvimport\Events\ImportFinished;
 use Excel;
+
 
 class ImportCsv implements ShouldQueue
 {
@@ -63,6 +65,7 @@ class ImportCsv implements ShouldQueue
 
                 $import->status = 'processed';
                 $import->save();
+                event(new ImportFinished());
         });
 
 

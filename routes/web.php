@@ -2,7 +2,6 @@
 
 
 use Csvimport\Events\ImportFinished;
-use Csvimport\Import;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -26,9 +25,7 @@ Route::post('/savemap', 'HomeController@savemap')->name('savemap');
 
 
 Route::get('/send',function(){;
-//    $import = Import::find(23);
     event(new ImportFinished());
-
     return "Event has been sent!";
 
 });

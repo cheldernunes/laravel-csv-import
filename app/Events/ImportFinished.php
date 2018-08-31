@@ -39,8 +39,7 @@ class ImportFinished implements ShouldBroadcast
     public function broadcastOn()
     {
 
-        return new Channel('import');
-//        return new PrivateChannel('import.'.$this->import->id);
+        return new Channel('import'); //public channel
 
     }
 
