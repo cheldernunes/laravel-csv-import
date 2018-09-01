@@ -33,12 +33,6 @@ class HomeController extends Controller
     public function index()
     {
 
-
-//        $file = Storage::path($this->fileimport->filename);
-//        dd($file);
-
-//        ImportCsv::dispatch($this->fileimport);
-
          return view('home');
     }
 

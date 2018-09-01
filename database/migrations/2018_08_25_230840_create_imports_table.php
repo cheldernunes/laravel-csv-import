@@ -17,9 +17,9 @@ class CreateImportsTable extends Migration
             $table->increments('id');
             $table->integer('user_id')->unsigned();
             $table->boolean('has_header')->default(True);
-            $table->mediumText('filename');
-            $table->logText('mapping');
-            $table->string('status');
+            $table->mediumText('filename')->nullable();
+            $table->longText('mapping')->nullable();
+            $table->string('status')->nullable();
             $table->timestamps();
         });
 

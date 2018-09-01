@@ -64,9 +64,9 @@ Pusher, dificuldade em ouvir o pusher após o gatilho do evento disparado. o que
 
 Todo
 ---
-Validação de mapeamento, evitar que ocorra seleção de mais de um campo por coluna.
-Fazer o vuejs ouvir o pusher corretamente.
-Implementar um Roolback em caso de importação errada
+* Validação de mapeamento, evitar que ocorra seleção de mais de um campo por coluna.
+* Fazer o vuejs ouvir o pusher corretamente.
+* Implementar um Roolback em caso de importação errada
 
 
 
