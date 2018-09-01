@@ -41,7 +41,19 @@ Como Executar a aplicação
 
 Simule um acesso real
 --
-Baixe a velocidade de conexão do navegador para `fast 3g`
+Baixe a velocidade de conexão do navegador para `fast 3g` para ter a experiêcia mais próxima do usuário.
+
+1. Selecione o arquivo CSV para importar
+![image](https://user-images.githubusercontent.com/1264455/44950672-864c4080-ae24-11e8-8e49-662138961e93.png)
+
+
+2. Mapeie os campos, enquanto o upload está ocorrendo. 
+![image](https://user-images.githubusercontent.com/1264455/44950651-e7274900-ae23-11e8-9153-5b90a5f2cfc9.png)
+Após finalizar o upload o botão de import será ativado, permitindo finalizar o processo.
+
+
+3. Sucesso do upload.
+![image](https://user-images.githubusercontent.com/1264455/44950664-46855900-ae24-11e8-82fe-b0dfaddb3544.png)
 
 
 Dificuldade Encontrada
