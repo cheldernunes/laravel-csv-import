@@ -13,7 +13,7 @@
 
                             <div class="alert alert-success">
                                 <h3>Obrigado, recebemos seu arquivo e já estamos importando \o/</h3>
-                                <p>Você será nofificado quando o processo de importação for concluído</p>
+                                <p>Você será notificado quando o processo de importação for concluído</p>
                             </div>
 
                     </div>
@@ -65,7 +65,7 @@
 <script>
 
     export default {
-        
+
 
             mounted () {
 
