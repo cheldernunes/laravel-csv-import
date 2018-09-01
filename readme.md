@@ -3,10 +3,10 @@
 
 Requisitos
 --
-php > 7.0
-Beanstalkd
-Mysql server
-Docker (se desejar utilizar filas com Redis)
+* php > 7.0
+* Beanstalkd
+* Mysql server
+* Docker (se desejar utilizar filas com Redis)
 
 
 Tecnologias adotadas
